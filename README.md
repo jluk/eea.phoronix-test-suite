@@ -1,5 +1,11 @@
 # eea.phoronix-test-suite
 
+## Fork instructions
+1. Pass env var COMMAND set to your desired test suite. (ex. COMMAND="pts/encode-mp3")
+2. Container will execute to completion with test output available from the container logs.
+
+---
+
 Unofficial dockerfile for Phoronix Test Suite open-source, cross-platform automated testing/benchmarking software. http://www.phoronix-test-suite.com/
 
 ## Prerequisites
